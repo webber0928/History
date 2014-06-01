@@ -1,15 +1,19 @@
 ##設定Git顏色標記
 
-1. 打開 Git 的 color 顏色設定，這樣 Git 指令的輸出結果才會加上顏色，像是 git status 等：
+1.打開 Git 的 color 顏色設定，這樣 Git 指令的輸出結果才會加上顏色，像是 git status 等：
+
 ```bash
 git config --global color.ui true
 ```
-2. 設定你偏好的文字編輯器和 diff 工具
+
+2.設定你偏好的文字編輯器和 diff 工具
+
 ```bash
 git config --global core.editor
 git config --global merge.tool opendiff
 ```
-3. 最後，我個人喜歡以下的 alias：
+
+3.最後，我個人喜歡以下的 alias：
 ```bash
 git config --global alias.co checkout
 git config --global alias.ci commit
