@@ -25,7 +25,7 @@
 # cd `brew --repository`
 ```
 更改 git 版本至 1.7.12.4 並且安裝正確版本
-``
+```
 # git checkout 7f1a8c0 Library/Formula/git.rb
 # brew install git
 ```
