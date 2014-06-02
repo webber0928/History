@@ -1,6 +1,6 @@
 ##設定Git顏色標記
 
-![DEMO](https://github.com/webber0928/History/blob/master/images/git_color.png)
+![DEMO](/webber0928/History/blob/master/images/git_color.png)
 
 1.打開 Git 的 color 顏色設定，這樣 Git 指令的輸出結果才會加上顏色，像是 git status 等：
 
