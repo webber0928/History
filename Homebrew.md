@@ -49,17 +49,25 @@
   ```
   brew switch 套件名稱 版本
   ```
-將目前的套件切換成指定的版本 (重要)
-brew home
+  將目前的套件切換成指定的版本 (重要)
+  ```
+  brew home
+  ```
 
-直接跳到 homebrew 首頁
-當安裝完成後，也請檢查 ~/.profile 檔案，確定系統會預先執行 brew 安裝的套件
+直接跳到 [homebrew](http://brew.sh/) 首頁
+
+當安裝完成後，也請檢查 `~/.profile` 檔案，確定系統會預先執行 `brew` 安裝的套件
+
 更新方式如下：
-
+```
 # vim ~/.profile
+```
 
 找到 export PATH=xxx (註4) 的該行，增加 /usr/local/bin: 在 PATH= 的最前面，即該行會變成
+```
 export PATH=/usr/local/bin:xxx
-
+```
 確定後存檔離開，並且鍵入以下的命令，確保剛才的修改可以立即執行
+```
 # source ~/.profile
+```
