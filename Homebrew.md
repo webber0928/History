@@ -1,12 +1,12 @@
 ##Homebrew
 
 [Homebrew](http://brew.sh/) 是提供一個 MacOSX 一個可以安裝其他 Un*x 命令列軟體的套件管理程式，在 MacOSX 通常 不需要 使用 root 的帳號，通常使用 sudo 即可，不過，在使用 brew 時， 不需要 使用 sudo 的指令，只要用一般的使用者權限安裝即可，仍然使用「終端機」鍵入以下命令安裝
-```bash
+```
 # ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
 
 安裝完成後，請先執行以下命令
-```bash
+```
 # brew update && brew doctor
 ```
 一般會使用的 brew 參數如下：
@@ -63,7 +63,7 @@
 # vim ~/.profile
 ```
 
-找到 export PATH=xxx (註4) 的該行，增加 /usr/local/bin: 在 PATH= 的最前面，即該行會變成
+找到 export PATH=xxx (註1) 的該行，增加 /usr/local/bin: 在 PATH= 的最前面，即該行會變成
 ```
 export PATH=/usr/local/bin:xxx
 ```
@@ -71,3 +71,6 @@ export PATH=/usr/local/bin:xxx
 ```
 # source ~/.profile
 ```
+
+備註：
+  1. xxx 是原本的字串省略
