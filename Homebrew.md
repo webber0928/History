@@ -1,6 +1,6 @@
 ##Homebrew
 
-Homebrew 是提供一個 MacOSX 一個可以安裝其他 Un*x 命令列軟體的套件管理程式，在 MacOSX 通常 不需要 使用 root 的帳號，通常使用 sudo 即可，不過，在使用 brew 時， 不需要 使用 sudo 的指令，只要用一般的使用者權限安裝即可，仍然使用「終端機」鍵入以下命令安裝
+[Homebrew](http://brew.sh/) 是提供一個 MacOSX 一個可以安裝其他 Un*x 命令列軟體的套件管理程式，在 MacOSX 通常 不需要 使用 root 的帳號，通常使用 sudo 即可，不過，在使用 brew 時， 不需要 使用 sudo 的指令，只要用一般的使用者權限安裝即可，仍然使用「終端機」鍵入以下命令安裝
 ```bash
 # ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
