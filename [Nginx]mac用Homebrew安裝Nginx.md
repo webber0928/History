@@ -9,7 +9,7 @@
 $ brew install nginx
 ```
 
-```bash
+```
 ==> Installing dependencies for nginx: pcre, openssl
 ==> Installing nginx dependency: pcre
 ==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/pcre-8.35.mavericks.bottle.tar.gz
