@@ -139,7 +139,7 @@ $ sudo nginx
 
 **ps.更改位置**
 
-將html的位置移到家目錄下使用者為webber的資料夾www裏面
+將html的位置移到使用者為webber的資料夾www裏面
 
 ```
 server {
@@ -149,7 +149,7 @@ server {
     #access_log  logs/host.access.log  main;
 
     location / {
-        root   /home/webber/www;
+        root   /Users/webber/www;
         index  index.html index.htm;
     }
 ```
