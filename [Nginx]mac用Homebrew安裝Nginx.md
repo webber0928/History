@@ -137,7 +137,7 @@ server {
 $ sudo nginx
 ```
 
-*ps.更改位置*
+**ps.更改位置**
 
 將html的位置移到家目錄下使用者為webber的資料夾www裏面
 
