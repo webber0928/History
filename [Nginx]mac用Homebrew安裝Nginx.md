@@ -136,6 +136,23 @@ server {
 ```
 $ sudo nginx
 ```
+
+*ps.更改位置*
+
+將html的位置移到家目錄下使用者為webber的資料夾www裏面
+
+```
+server {
+    listen       80;
+    server_name  localhost;
+
+    #access_log  logs/host.access.log  main;
+
+    location / {
+        root   /home/webber/www;
+        index  index.html index.htm;
+    }
+```
 ---
 
 ##參考連結
